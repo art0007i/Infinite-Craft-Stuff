@@ -53,6 +53,7 @@
     let load = ldb.get("artiObj", (load)=>{
         if(!load) {
             load = []
+            console.log("Failed to load recipe data, starting fresh...")
         }
         else {
             load = JSON.parse(load).matches
@@ -187,6 +188,8 @@
 
         return promise;
     }
+
+    window.infCraftStuff = {"infCraftObj": ()=>infCraftObj, "artiObj": ()=>artiObj, ldb};
 
     console.log("infinite craft stuff loaded");// Your code here...
 })();
