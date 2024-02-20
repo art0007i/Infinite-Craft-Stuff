@@ -3,7 +3,7 @@
 // @downloadURL	 https://github.com/art0007i/Infinite-Craft-Stuff/raw/main/Infinite-Craft-Stuff.js
 // @updateURL	 https://github.com/art0007i/Infinite-Craft-Stuff/raw/main/Infinite-Craft-Stuff.js
 // @namespace    https://github.com/art0007i/Infinite-Craft-Stuff
-// @version      0.1.0
+// @version      0.1.1
 // @description  Adds auto craft and recipe memory to infinite craft.
 // @author       art0007i
 // @match        https://neal.fun/infinite-craft/*
